@@ -1,0 +1,21 @@
+{
+  "username": "tester",
+  "password": "tester$tester1234",
+  
+  "OrderType": "Gift Card Order",
+  "RegularSupplier": "Buying Group",
+  "VendorSupplier_Store": "Best Buy",
+  "Business":             "Best Buy",
+  "Referral": "",
+  "OrderNumber":     "aaaa0001",
+  "CardCode":        "aaaa0000",
+  "SupplierOrderId": "aaaa0000",
+  "tags": "Testing",
+  "amount": "100",
+  "Pin": "0000",
+
+  "msnExist":                  "Gift card code aaaa0000 already exists in system",
+  "amountZero":                "Amount should be greater than zero",
+  "orderDNotExist":            "Gift card order aaaa-0000 does not exists",
+  "cardOrdAlreadyFullyLoaded": "Gift card order aaaa0000 is already fully loaded"
+}
