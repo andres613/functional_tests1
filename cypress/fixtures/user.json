@@ -11,7 +11,7 @@
   "CardCode":        "aaaa0005",
   "SupplierOrderId": "aaaa0005",
   "nOrderNumber":    "aaaa-0005",
-  "tags": "Testing",
+  "Tags": "Testing",
   "Amount":                   "500",
   "dNotHEBA": "Gift card order aaaa0005 doesn't have enough balance to add $500.00",
   "dNotHEB":  "Gift card order aaaa0005 doesn't have enough balance to add $10000.00",

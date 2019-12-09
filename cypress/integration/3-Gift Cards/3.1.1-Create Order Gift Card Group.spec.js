@@ -15,9 +15,9 @@ describe('Create Order', () => {
                 userData.VendorSupplier_Store,
                 userData.RegularSupplier,
                 userData.OrderNumber,
-                userData.tags,
-                userData.amount,
-                userData.amount
+                userData.Tags,
+                userData.Amount,
+                userData.Amount
             )
         })
     });

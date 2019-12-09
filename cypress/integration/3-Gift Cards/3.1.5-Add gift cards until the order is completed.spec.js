@@ -15,7 +15,7 @@ describe('Add Gift Cards to order Completed', () => {
             cy.contains('#select2-results-10 li div', userData.VendorSupplier_Store).click()
             cy.get('.col-sm-4 > #giftcard_orders_id').type(userData.OrderNumber)
             cy.get('#giftcard_code').type(userData.CardCode)
-            cy.get('.col-sm-4 > #giftcard_amount').type(userData.amount)
+            cy.get('.col-sm-4 > #giftcard_amount').type(userData.Amount)
             cy.get('#giftcard_pin').type(userData.Pin)
             cy.get(':nth-child(9) > .col-sm-4 > .btn-primary').click()
         })

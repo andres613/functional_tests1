@@ -12,7 +12,7 @@ describe('fail to import gift card', () => {
             cy.get('p').contains(userData.msnExist).should('exist').should('be.visible').wait(3000)
         })
     })
-    /*
+    
     it('Fail importing Gift Card when amount is 0', () => {
         cy.get('@userData').then((userData) => {
             cy.CreateGiftCard(userData.RegularSupplier, userData.VendorSupplier_Store, userData.OrderNumber, userData.OrderNumber, '0', userData.Pin)

@@ -13,8 +13,8 @@ describe('Create Gift Card', () => {
                 userData.VendorSupplier_Store,
                 userData.OrderNumber,
                 userData.OrderNumber,
-                userData.amount,
-                userData.amount
+                userData.Amount,
+                userData.Amount
             )
         })
     });

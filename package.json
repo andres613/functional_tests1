@@ -7,5 +7,21 @@
   "devDependencies": {
     "cypress": "^3.2.0",
     "cypress-plugin-tab": "^1.0.3"
-  }
+  },
+  "name": "functional_tests",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres613/functional_tests1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres613/functional_tests1/issues"
+  },
+  "homepage": "https://github.com/andres613/functional_tests1#readme"
 }
