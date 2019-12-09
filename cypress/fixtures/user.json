@@ -7,15 +7,22 @@
   "VendorSupplier_Store": "Best Buy",
   "Business":             "Best Buy",
   "Referral": "",
-  "OrderNumber":     "aaaa0001",
-  "CardCode":        "aaaa0000",
-  "SupplierOrderId": "aaaa0000",
+  "OrderNumber":     "aaaa0005",
+  "CardCode":        "aaaa0005",
+  "SupplierOrderId": "aaaa0005",
+  "nOrderNumber":    "aaaa-0005",
   "tags": "Testing",
-  "amount": "100",
+  "Amount":                   "500",
+  "dNotHEBA": "Gift card order aaaa0005 doesn't have enough balance to add $500.00",
+  "dNotHEB":  "Gift card order aaaa0005 doesn't have enough balance to add $10000.00",
   "Pin": "0000",
 
-  "msnExist":                  "Gift card code aaaa0000 already exists in system",
+  "giftCardWCS":               "The Gift Card aaaa0005 was created successfully",
+  "msnExist":                  "Gift card code aaaa0005 already exists in system",
+  "cardOrdAlreadyFullyLoaded": "Gift card order aaaa0005 is already fully loaded",
+  "orderDNotExist":            "Gift card order aaaa-0005 does not exists",
   "amountZero":                "Amount should be greater than zero",
-  "orderDNotExist":            "Gift card order aaaa-0000 does not exists",
-  "cardOrdAlreadyFullyLoaded": "Gift card order aaaa0000 is already fully loaded"
+  
+    
+  "PODetails": "Purchasing Order Details"
 }

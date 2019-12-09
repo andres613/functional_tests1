@@ -30,6 +30,7 @@ Cypress.Commands.add("login", (username, password) => {
   cy.get('.hidden-xs').click({ force: true })
 });
 
+
 Cypress.Commands.add("CreateGiftCardOrder", (OrderType, RegularSupplier, VendorSupplier, Store, Referral, OrderNumber, Tags, Amount, AmountSaved) => {
   cy.visit('https://thecornercloud.com/developers/index.php/businesses#/purchase_orders')
   cy.get('[ng-click="addOrderModal()"]').click({ force: true })
@@ -54,6 +55,7 @@ Cypress.Commands.add("CreateGiftCardOrder", (OrderType, RegularSupplier, VendorS
   cy.get('[ng-show="formData.business_orders_id==0"] > .btn-primary').click()
 })
 
+
 Cypress.Commands.add("CreateGiftCard", (Supplier, Business, SupplierOrderId, CardCode, Amount, Pin) => {
   cy.visit("https://thecornercloud.com/developers/index.php/gift_cards/create")
   cy.get('.col-sm-4 > .control-group > .controls > #s2id_supplier_id > .select2-choice').click().wait(1000)
@@ -67,11 +69,6 @@ Cypress.Commands.add("CreateGiftCard", (Supplier, Business, SupplierOrderId, Car
   cy.get('#giftcard_pin').type(Pin)
   cy.get(':nth-child(9) > .col-sm-4 > .btn-primary').click()
 });
-
-
-
-
-
 
 /*
 Cypress.Commands.add("Cookies", () => {
