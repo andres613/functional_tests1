@@ -5,7 +5,7 @@
     "cypress:run": "cypress run"
   },
   "devDependencies": {
-    "cypress": "^3.2.0",
+    "cypress": "^15.13.1",
     "cypress-plugin-tab": "^1.0.3"
   },
   "name": "functional_tests",
